@@ -1,5 +1,5 @@
 ======================
-Flask Extension Cookiecutter
+{{ cookiecutter.extension_name }}
 ======================
 
 Cookiecutter_ template for writing flask extensions.

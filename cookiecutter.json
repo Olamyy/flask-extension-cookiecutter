@@ -5,7 +5,7 @@
   "extension_name": "Flask Extension",
   "extension_slug": "{{ cookiecutter.extension_name.lower().replace(' ', '_').replace('-', '_') }}",
   "extension_folder_name": "{{ cookiecutter.extension_name.lower().replace(' ', '-') }}",
-  "extension_short_description": "Flas extension that does x and y.",
+  "extension_short_description": "Flask extension that does x and y.",
   "extension_class_name": "{{ cookiecutter.extension_name.lower().replace(' ', '_').replace('-', '_') }}",
   "pypi_username": "{{ cookiecutter.github_username }}",
   "version": "0.1.0",

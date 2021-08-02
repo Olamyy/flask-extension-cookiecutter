@@ -33,6 +33,7 @@ setup(
     version='{{ cookiecutter.version }}',
     description="{{ cookiecutter.extension_short_description }}",
     long_description=readme + '\n\n' + history,
+    long_description_content_type='text/x-rst',
     author="{{ cookiecutter.full_name.replace('\"', '\\\"') }}",
     author_email='{{ cookiecutter.email }}',
     url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.extension_slug }}',

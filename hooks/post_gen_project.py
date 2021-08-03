@@ -10,11 +10,6 @@ def remove_file(filepath):
 
 
 if __name__ == '__main__':
-    try:
-       import flask
-    except ImportError as error:
-        print('You need to have flask installed to use this cookiecutter.')
-        sys.exit(1)
 
     if '{{ cookiecutter.use_pypi_deployment_with_travis }}' != 'y':
         remove_file('travis_pypi_setup.py')
